@@ -12,6 +12,7 @@ Febuary 20th, 2026
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+
 void ** allocateJagged2DArray(int elementSize, int rows, int lengths[]){
     if(elementSize<=0||rows<=0){//first checks if element size and rows are valid 
         perror("Invalid element size or row count (line 17)");
